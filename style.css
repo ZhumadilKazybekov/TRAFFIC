@@ -1,0 +1,104 @@
+body {
+    /* margin: 0; */
+    background: linear-gradient(rgb(128, 199, 81), rgb(166, 166, 126), rgb(196, 75, 73));
+    
+}
+.trafic {
+    width: 250px;
+    height: 700px;
+    border: 24px groove black;
+    border-radius: 70px;
+    background-color: rgb(146, 124, 124);
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 70px;
+    margin-bottom: 120px;
+}
+
+#red {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 20px solid rgb(52, 52, 52);
+    background-color: rgb(118, 3, 3);
+    animation: redLight 10s infinite;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+
+/* @keyframes redLight {
+    0%{
+        background: #300;
+    }
+    55%{
+        background: #300;
+    }
+    65%{
+        background: #f00;
+    }
+    95%{
+        background: #300;
+    }
+} */
+
+#yellow {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 20px solid  rgb(52, 52, 52);
+    background-color: rgb(131, 131, 3);
+    margin-left: 13px;
+}
+
+/* @keyframes yellowLight {
+    0%{
+        background: #430;
+    }
+    55%{
+        background: #430;
+    }
+    65%{
+        background: #fc0;
+    }
+    95%{
+        background: #430;
+    }
+} */
+
+#green {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 20px solid  rgb(52, 52, 52);
+    background-color: green;
+    margin-left: 13px;
+}
+
+
+@media (max-width: 800px) {
+    .trafic {
+        width: 120px;
+        height: 360px;
+        margin-left: 20%;
+        border: 17px groove black;
+        border-radius: 40px;
+    }
+
+    #red {
+        width: 70px;
+        height: 70px;
+        margin-left: 5px;
+    }
+
+    #yellow {
+        width: 70px;
+        height: 70px;
+        margin-left: 5px;
+    }
+
+    #green {
+        width: 70px;
+        height: 70px;
+        margin-left: 5px;
+    }
+}
